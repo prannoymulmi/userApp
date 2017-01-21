@@ -1,6 +1,6 @@
 /**
  * A Class which overrides the Ext.data.reader.Json so that we can read the csv
- * file andconvert it into the json which can be then called with the help of the proxy.
+ * file and convert it into the json which can be then called with the help of the proxy.
  */
 
 Ext.define('CsvReader', {

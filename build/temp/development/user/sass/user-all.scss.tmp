@@ -913,10 +913,10 @@ $include-ext-window-window: dynamic(true);;
 $include-user-application: dynamic(true);;
 $include-user-model-infos: dynamic(true);;
 $include-user-store-userinfos: dynamic(true);;
-$include-user-view-main-list: dynamic(true);;
 $include-user-view-main-main: dynamic(true);;
 $include-user-view-main-maincontroller: dynamic(true);;
 $include-user-view-main-mainmodel: dynamic(true);;
+$include-user-view-userinfos-list: dynamic(true);;
 $include-user-view-userinfos-listmodel: dynamic(true);;
 $output-paths: ("path": "../../classic/resources", "shared": "../../resources");
 

@@ -1,7 +1,7 @@
 /**
  * This view is an example list of people. This is just a simple List which cannot be manipulated
  */
-Ext.define('user.view.main.List', {
+Ext.define('user.view.userInfos.List', {
     extend: 'Ext.grid.Panel',
     xtype: 'mainlist',
 
