@@ -9,9 +9,10 @@ Ext.define('user.Application', {
     name: 'user',
 
     stores: [
-        'user.store.userInfos'
+        'user.store.userInfos',
+        'user.store.userActivities'
     ],
-    requires: ['user.view.userInfos.ListModel'],
+    requires: ['user.view.userInfos.ListModel', 'user.view.userActivities.ListModel'],
     
     launch: function () {
         // TODO - Launch the application

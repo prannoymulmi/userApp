@@ -14,7 +14,8 @@ Ext.define('user.view.main.Main', {
 
         'user.view.main.MainController',
         'user.view.main.MainModel',
-        'user.view.userInfos.List'
+        'user.view.userInfos.List',
+        'user.view.userActivities.List'
     ],
 
     controller: 'main',
@@ -75,29 +76,27 @@ Ext.define('user.view.main.Main', {
     },
 
     items: [{
-        title: 'Home',
-        iconCls: 'fa-home',
+        bind: {
+            title: '{users}'
+        },
+        iconCls: 'fa-user',
         // The following grid shares a store with the classic version's grid as well!
         items: [{
             xtype: 'mainlist'
         }]
     }, {
-        title: 'Users',
-        iconCls: 'fa-user',
         bind: {
-            html: '{loremIpsum}'
-        }
-    }, {
-        title: 'Groups',
-        iconCls: 'fa-users',
-        bind: {
-            html: '{loremIpsum}'
-        }
+            title: '{activities}'
+        },
+        iconCls: 'fa-plane',
+        items: [{
+            xtype: 'activityList',
+        }]
     }, {
         title: 'Settings',
         iconCls: 'fa-cog',
         bind: {
-            html: '{loremIpsum}'
+            html: '{pageNotExist}'
         }
     }]
 });
