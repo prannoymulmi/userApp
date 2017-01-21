@@ -9,8 +9,9 @@ Ext.define('user.Application', {
     name: 'user',
 
     stores: [
-        // TODO: add global / shared stores here
+        'user.store.userInfos'
     ],
+    requires: ['user.view.userInfos.ListModel'],
     
     launch: function () {
         // TODO - Launch the application
