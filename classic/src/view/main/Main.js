@@ -15,7 +15,8 @@ Ext.define('user.view.main.Main', {
         'user.view.main.MainController',
         'user.view.main.MainModel',
         'user.view.userInfos.List',
-        'user.view.userActivities.List'
+        'user.view.userActivities.List',
+        'user.view.userEffectsView'
     ],
 
     controller: 'main',
@@ -98,5 +99,11 @@ Ext.define('user.view.main.Main', {
         bind: {
             html: '<div class="centerItem">{pageNotExist} <img  src={imgSrc} />{pageNotExistMoreInfo}</div>'
         }
+    }, {
+        title: 'sss',
+        iconCls: 'fa-cog',
+        items: [{
+            xtype: 'userEffectsView'
+        }]
     }]
 });
