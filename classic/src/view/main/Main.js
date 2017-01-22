@@ -96,7 +96,7 @@ Ext.define('user.view.main.Main', {
         title: 'Settings',
         iconCls: 'fa-cog',
         bind: {
-            html: '{pageNotExist}'
+            html: '<div class="centerItem">{pageNotExist} <img  src={imgSrc} />{pageNotExistMoreInfo}</div>'
         }
     }]
 });

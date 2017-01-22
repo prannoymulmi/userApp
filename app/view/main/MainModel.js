@@ -11,8 +11,9 @@ Ext.define('user.view.main.MainModel', {
         users: 'Users',
         activities : 'activities',
 
-        pageNotExist: '<h1>Ahhhh !! This page does not Exist for NOW</h1>',
-        pageNotExistMoreInfo : '<h2>Not to Worry. You can still click the other two links,or sit there and listen to a goat scream like a human.</h2> '
+        pageNotExist: '<h1>Ahhhhhhhhh !! This page does not Exist for NOW</h1>',
+        pageNotExistMoreInfo : '<h4>Not to worry. You can either head back to the other Links, or sit here and enjoy the goats hospitality.</h4> ',
+        imgSrc: 'resources/img/goat.jpg'
     }
 
 });

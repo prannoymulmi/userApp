@@ -10407,3 +10407,9 @@
     top: 30px;
     right: -24px;
 }
+/* D:/project/userApp/classic/sass/src/view/main/Main.scss:85 */
+.centerItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -20,7 +20,7 @@ Ext.define('CsvReader', {
 
                 //Check if there are some non-printable chars present including a space and remove it
                 //from the colname
-                // Took me a while to figure it out because the last colum was not showing
+                // Took me a while to figure it out because the last had a non-printable char
                 //But Figured it :)
                 var colName = colNames[j].replace(/[^\x20-\x7E]+/g, '');
                 record[colName] = bits[j];
