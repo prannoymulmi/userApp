@@ -7,7 +7,7 @@ Ext.define('user.view.main.MainModel', {
     alias: 'viewmodel.main',
 
     data: {
-        name: 'user',
+        name: 'EXTJS Challenge',
         users: 'Users',
         activities : 'Activities',
         effects: 'Effects',

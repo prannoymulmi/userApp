@@ -2,32 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9926ce38-75cb-41d9-a4f5-cc702452f444" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph17.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph18.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsMain.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Application.js" afterPath="$PROJECT_DIR$/app/Application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/effects-csv-reader/EffectsCsvReader.js" afterPath="$PROJECT_DIR$/app/effects-csv-reader/EffectsCsvReader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/UserActivities.js" afterPath="$PROJECT_DIR$/app/model/UserActivities.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/UserEffects.js" afterPath="$PROJECT_DIR$/app/model/UserEffects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/UserInfos.js" afterPath="$PROJECT_DIR$/app/model/UserInfos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/UserActivitiesStore.js" afterPath="$PROJECT_DIR$/app/store/UserActivitiesStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/UserEffectsStore.js" afterPath="$PROJECT_DIR$/app/store/UserEffectsStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/UserInfosStore.js" afterPath="$PROJECT_DIR$/app/store/UserInfosStore.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/main/MainModel.js" afterPath="$PROJECT_DIR$/app/view/main/MainModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/userEffects/UserEffectsController.js" afterPath="$PROJECT_DIR$/app/view/userEffects/UserEffectsController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/user/classic.json" afterPath="$PROJECT_DIR$/build/development/user/classic.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/user/classic/resources/user-all_2.css" afterPath="$PROJECT_DIR$/build/development/user/classic/resources/user-all_2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/temp/development/user/sass/user-all.scss" afterPath="$PROJECT_DIR$/build/temp/development/user/sass/user-all.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/temp/development/user/sass/user-all.scss.tmp" afterPath="$PROJECT_DIR$/build/temp/development/user/sass/user-all.scss.tmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic.json" afterPath="$PROJECT_DIR$/classic.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic.jsonp" afterPath="$PROJECT_DIR$/classic.jsonp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/src/view/activities/ActivitiyList.js" afterPath="$PROJECT_DIR$/classic/src/view/activities/ActivitiyList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classic/src/view/main/Main.js" afterPath="$PROJECT_DIR$/classic/src/view/main/Main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/example/bootstrap.json" afterPath="$PROJECT_DIR$/sass/example/bootstrap.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/example/bootstrap.jsonp" afterPath="$PROJECT_DIR$/sass/example/bootstrap.jsonp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph.js" afterPath="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph16.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph16.js" afterPath="$PROJECT_DIR$/classic/src/view/userEffects/UserEffectsGraph16.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph17.js" afterPath="$PROJECT_DIR$/classic/src/view/userEffects/UserEffectsGraph17.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph18.js" afterPath="$PROJECT_DIR$/classic/src/view/userEffects/UserEffectsGraph18.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,7 +27,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainModel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view/main/MainModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,7 +93,6 @@
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph.js" />
         <option value="$PROJECT_DIR$/app/Application.js" />
-        <option value="$PROJECT_DIR$/app/view/main/MainModel.js" />
         <option value="$PROJECT_DIR$/classic/src/view/main/Main.js" />
         <option value="$PROJECT_DIR$/app/effects-csv-reader/EffectsCsvReader.js" />
         <option value="$PROJECT_DIR$/app/model/UserActivities.js" />
@@ -115,6 +108,7 @@
         <option value="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph17.js" />
         <option value="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph18.js" />
         <option value="$PROJECT_DIR$/classic/src/view/userEffects/userEffectsMain.js" />
+        <option value="$PROJECT_DIR$/app/view/main/MainModel.js" />
       </list>
     </option>
   </component>
@@ -198,68 +192,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userInfos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -279,6 +211,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,7 +350,7 @@
       <workItem from="1485036420170" duration="11517000" />
       <workItem from="1485076196592" duration="18952000" />
       <workItem from="1485126864653" duration="1713000" />
-      <workItem from="1485176395489" duration="6810000" />
+      <workItem from="1485176395489" duration="8003000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1484768100766</created>
@@ -517,17 +471,24 @@
       <option name="project" value="LOCAL" />
       <updated>1485127442813</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Task3 COmplete">
+      <created>1485184803761</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1485184803761</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83510000" />
+    <option name="totallyTimeSpent" value="84703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1892779" sideWeight="0.5021119" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1892779" sideWeight="0.49788806" order="7" side_tool="false" content_ui="tabs" />
@@ -579,7 +540,8 @@
     <MESSAGE value="CSV file loaded with CSV to json conversion Task 1" />
     <MESSAGE value="Task2 Initial Commit" />
     <MESSAGE value="Task3 Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task3 Initial commit" />
+    <MESSAGE value="Task3 COmplete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task3 COmplete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -786,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/MainModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/userEffects/UserEffectsMainController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -850,7 +804,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph17.js">
+    <entry file="file://$PROJECT_DIR$/classic/src/view/userEffects/UserEffectsGraph17.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
@@ -866,7 +820,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph18.js">
+    <entry file="file://$PROJECT_DIR$/classic/src/view/userEffects/UserEffectsGraph18.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
@@ -874,7 +828,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classic/src/view/userEffects/userEffectsGraph16.js">
+    <entry file="file://$PROJECT_DIR$/classic/src/view/userEffects/UserEffectsGraph16.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
@@ -886,6 +840,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/MainModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
         </state>
       </provider>
