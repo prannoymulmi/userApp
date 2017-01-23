@@ -9,7 +9,8 @@ Ext.define('user.view.main.MainModel', {
     data: {
         name: 'user',
         users: 'Users',
-        activities : 'activities',
+        activities : 'Activities',
+        effects: 'Effects',
 
         pageNotExist: '<h1>Ahhhhhhhhh !! This page does not Exist for NOW</h1>',
         pageNotExistMoreInfo : '<h4>Not to worry. You can either head back to the other Links, or sit here and enjoy the goats hospitality.</h4> ',

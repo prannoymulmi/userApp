@@ -1,3 +1,6 @@
+/**
+ * The store for User activities
+ */
 Ext.define('user.store.userActivities', {
     extend: 'Ext.data.Store',
     model: 'user.model.UserActivities',

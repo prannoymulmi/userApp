@@ -56,7 +56,8 @@
      */
     "requires": [
         "font-awesome",
-        "sencha-charts"
+        "sencha-charts",
+        "font-pictos"
     ],
 
     /**

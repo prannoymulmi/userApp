@@ -1,3 +1,6 @@
+/**
+ * The Store for UserEffects
+ */
 Ext.define('user.store.userEffects', {
     extend: 'Ext.data.Store',
     model: 'user.model.UserEffects',

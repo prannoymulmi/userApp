@@ -1087,12 +1087,15 @@ $include-user-store-useractivities: dynamic(true);;
 $include-user-store-usereffects: dynamic(true);;
 $include-user-store-userinfos: dynamic(true);;
 $include-user-view-userseffectscontroller: dynamic(true);;
+$include-user-view-userseffectsmain: dynamic(true);;
 $include-user-view-main-main: dynamic(true);;
 $include-user-view-main-maincontroller: dynamic(true);;
 $include-user-view-main-mainmodel: dynamic(true);;
 $include-user-view-useractivities-list: dynamic(true);;
 $include-user-view-useractivities-listmodel: dynamic(true);;
-$include-user-view-usereffectsview: dynamic(true);;
+$include-user-view-usereffectsview16: dynamic(true);;
+$include-user-view-usereffectsview17: dynamic(true);;
+$include-user-view-usereffectsview18: dynamic(true);;
 $include-user-view-userinfos-list: dynamic(true);;
 $include-user-view-userinfos-listmodel: dynamic(true);;
 $output-paths: ("path": "../../classic/resources", "shared": "../../resources");
@@ -1598,6 +1601,14 @@ $current-resource-root: $charts-resource-root;
 $relative-image-path-for-uis: $charts-resource-path;
 @import '../../../../../ext/packages/charts/classic/sass/src/chart/legend/Legend';
 @import '../../../../../ext/packages/charts/classic/sass/src/chart/AbstractChart';
+
+/* including package font-pictos */
+$font-pictos-resource-root: 'font-pictos' !default;
+$font-pictos-resource-path: 'font-pictos/images' !default;
+$current-package: 'font-pictos';
+$current-resource-root: $font-pictos-resource-root;
+$relative-image-path-for-uis: $font-pictos-resource-path;
+@import '../../../../../ext/packages/font-pictos/sass/src/all';
 
 /* including package user */
 $user-resource-root: '' !default;

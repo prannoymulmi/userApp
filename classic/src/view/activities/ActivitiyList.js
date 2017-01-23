@@ -1,5 +1,5 @@
 /**
- * This view is an example list of people. This is just a simple List which cannot be manipulated
+ * This view is an example list of people. This is just a simple List which shows the users Info
  */
 Ext.define('user.view.userActivities.List', {
     extend: 'Ext.grid.Panel',

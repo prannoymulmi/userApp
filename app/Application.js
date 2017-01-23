@@ -10,7 +10,8 @@ Ext.define('user.Application', {
 
     stores: [
         'user.store.userInfos',
-        'user.store.userActivities'
+        'user.store.userActivities',
+        'user.store.userEffects'
     ],
     requires: ['user.view.userInfos.ListModel', 'user.view.userActivities.ListModel'],
     

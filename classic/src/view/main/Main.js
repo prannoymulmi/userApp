@@ -16,7 +16,7 @@ Ext.define('user.view.main.Main', {
         'user.view.main.MainModel',
         'user.view.userInfos.List',
         'user.view.userActivities.List',
-        'user.view.userEffectsView'
+        'user.view.UsersEffectsMain'
     ],
 
     controller: 'main',
@@ -89,9 +89,17 @@ Ext.define('user.view.main.Main', {
         bind: {
             title: '{activities}'
         },
-        iconCls: 'fa-plane',
+        iconCls: 'pictos pictos-action',
         items: [{
             xtype: 'activityList',
+        }]
+    }, {
+        bind: {
+            title: '{effects}'
+        },
+        iconCls: 'pictos pictos-chart2',
+        items: [{
+            xtype: 'UsersEffectsMain'
         }]
     }, {
         title: 'Settings',
@@ -99,11 +107,5 @@ Ext.define('user.view.main.Main', {
         bind: {
             html: '<div class="centerItem">{pageNotExist} <img  src={imgSrc} />{pageNotExistMoreInfo}</div>'
         }
-    }, {
-        title: 'sss',
-        iconCls: 'fa-cog',
-        items: [{
-            xtype: 'userEffectsView'
-        }]
     }]
 });

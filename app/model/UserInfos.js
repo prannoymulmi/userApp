@@ -1,4 +1,4 @@
-// Set up a model to use in our Store
+// Set up a model to use in our Store User Infos
 Ext.define('user.model.Infos', {
     extend: 'Ext.data.Model',
     fields: [

@@ -1,3 +1,6 @@
+/**
+ * Store for User infos
+ */
 Ext.define('user.store.userInfos', {
     extend: 'Ext.data.Store',
     model: 'user.model.Infos',
