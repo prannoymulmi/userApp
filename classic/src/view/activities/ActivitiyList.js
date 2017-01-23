@@ -36,7 +36,7 @@ Ext.define('user.view.userActivities.List', {
                     allowBlank: false
                 }
             },
-            flex: 1
+            flex: 2
         }, {
             text: 'Planned Start',
             dataIndex: 'Planned Start',
